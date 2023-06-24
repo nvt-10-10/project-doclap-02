@@ -12,7 +12,7 @@ html {
 
 body {
     font-size: 1.6rem;
-    font-family: "Public Sans", "Poppins", sans-serif;
+    font-family: "Public Sans", "Poppins", "Sonsie One", sans-serif, cursive;
 }
 
 input,
@@ -235,4 +235,44 @@ a:hover {
     position: absolute;
     right: 3px;
     bottom: 82px;
+}
+
+/* Section-logo */
+
+.section-logo {
+    margin-top: 42px;
+}
+
+.section-logo__inner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 201px;
+    background-color: #e2eddf;
+    border-radius: 100.5px;
+}
+
+.section-logo__list {
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    column-gap: 55px;
+    align-items: center;
+}
+
+.section-logo__item {
+    display: flex;
+    column-gap: 14px;
+    align-items: center;
+}
+
+.section-logo__item--icon {
+    height: 46px;
+    width: 46px;
+    object-fit: cover;
+}
+.section-logo__item--title {
+    color: var(--primary-color-black-green, #143c3c);
+    font-size: 2.6rem;
+    font-family: Poppins;
+    font-weight: 500;
 }
