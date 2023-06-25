@@ -775,6 +775,7 @@ a:hover {
     width: 1140px;
     overflow: hidden;
     border-radius: 22px;
+    object-fit: cover;
 }
 /* features */
 .features {
@@ -842,4 +843,124 @@ a:hover {
     font-size: 14px;
 
     line-height: 24px;
+}
+
+.articles {
+    margin-top: 185px;
+    padding-bottom: 102px;
+}
+
+.articles__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.articles__heading {
+    position: relative;
+    margin-top: 10px;
+    width: 520px;
+}
+
+.articles__desc {
+    width: 409px;
+    color: var(--text-color-light-gray, #7d8188);
+
+    /* Paragraph/h4 16px medium */
+    font-size: 1.6rem;
+    font-family: Poppins;
+    font-weight: 500;
+    line-height: 1.625;
+}
+
+.articles__heading::before {
+    position: absolute;
+    display: block;
+    content: "";
+    width: 66px;
+    height: 2px;
+    bottom: 19px;
+    right: -51px;
+    background-color: #152427;
+}
+
+.articles__list {
+    margin-top: 90px;
+    display: flex;
+    column-gap: 30px;
+}
+
+.articles-item:hover {
+    border-radius: 40px 40px 20px 20px;
+    background: var(--text-color-white, #fff);
+    box-shadow: 0px 12px 74px 0px rgba(91, 91, 91, 0.25);
+}
+
+.articles-item:hover .articles-item__img {
+    transform: scale(1.1);
+    border-radius: 40px 40px 0px 0px;
+}
+
+.articles-item__thumb {
+    overflow: hidden;
+    border-radius: 40px 40px 0px 0px;
+}
+
+.articles-item__img {
+    height: 317px;
+    object-fit: cover;
+    border-radius: 40px 40px 0px 0px;
+}
+
+.articles-item__info {
+    padding: 30px;
+}
+
+.articles__btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 26px;
+    width: 107px;
+    text-align: center;
+    font-size: 1rem;
+    background: #e2eddf;
+    color: #143c3c;
+    border: none;
+    transition: 0.25s;
+}
+
+.articles__btn:hover {
+    color: #fff;
+    background: #143c3c;
+}
+
+.articles-item__link {
+    display: block;
+    margin-top: 13px;
+    color: var(--primary-color-black-green, #143c3c);
+
+    /* Paragraph/h3 18px bold */
+    font-size: 1.8rem;
+    font-family: Poppins;
+    font-weight: 600;
+    line-height: 1.67;
+}
+
+.articles-item__line {
+    margin-top: 9px;
+    width: 297px;
+    height: 1px;
+    background: #c4c4c4;
+}
+
+.articles-item__date {
+    margin-top: 25px;
+    color: var(--text-color-black-gray, #575d5e);
+
+    /* Paragraph/10px */
+    font-size: 1rem;
+    font-family: Poppins;
+    font-weight: 500;
+    line-height: 1.2;
+    text-align: right;
 }
