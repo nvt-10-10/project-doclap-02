@@ -964,3 +964,139 @@ a:hover {
     line-height: 1.2;
     text-align: right;
 }
+
+.footer {
+    padding-top: 72px;
+    padding-bottom: 50px;
+
+    background: #143c3c;
+}
+
+.footer__inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer__sign-up {
+    color: var(--text-color-white, #fff);
+
+    /* Heading/H4 32px semibold */
+    font-size: 3.2rem;
+    font-family: Poppins;
+    font-weight: 500;
+}
+
+.footer-form {
+    margin-top: 25px;
+    display: flex;
+    align-items: center;
+}
+
+.form__input {
+    width: 300px;
+    height: 35px;
+    border: none;
+    color: #6a8383;
+    font-size: 1.6rem;
+    font-weight: 500;
+    background: transparent;
+}
+
+.form__input::placeholder {
+    width: 100%;
+    color: var(--scondery-color-gray, #6a8383);
+
+    /* Heading/h1 22px semibold */
+    font-size: 2.2rem;
+    font-family: Poppins;
+    font-weight: 600;
+}
+
+.form__sumbit {
+    background: transparent;
+    border: none;
+    display: flex;
+    align-items: center;
+    color: #c4c4c4;
+}
+
+.footer__column__line {
+    margin-top: 20px;
+    width: 354px;
+    height: 1px;
+    background: var(--scondery-color-gray, #6a8383);
+}
+
+.footer__right {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 50px;
+}
+
+.footer__heading {
+    color: var(--text-color-white, #fff);
+
+    /* Paragraph/h2 18px medium */
+    font-size: 1.8rem;
+    font-family: Public Sans;
+    font-weight: 500;
+    line-height: 1.55;
+}
+
+.footer__item__link {
+    color: var(--scondery-color-gray, #6a8383);
+
+    /* Paragraph/h5 16px medium */
+    font-size: 1.6rem;
+    font-family: Public Sans;
+    font-weight: 500;
+    line-height: 2.25;
+}
+.footer__cta-group {
+    margin-top: 50px;
+    display: flex;
+    column-gap: 20px;
+    align-items: center;
+}
+.cta-item__link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 52px;
+    height: 52px;
+    border: 1px solid #265252;
+    border-radius: 50%;
+    transition: 0.25s;
+}
+.cta-item__link:hover {
+    background: #a75325;
+}
+
+.cta-item__icon {
+    width: 40%;
+    height: 40%;
+}
+
+.footer__line {
+    margin-top: 45px;
+    height: 1px;
+    background: linear-gradient(
+        14deg,
+        #143c3c 0%,
+        #295a5a 53.48%,
+        rgba(38, 82, 82, 0) 100%
+    );
+}
+
+.footer__copyright {
+    padding: 28px 0 42px;
+    border-top: 1px solid #406181;
+}
+
+.footer__copyright-text {
+    font-size: 1.4rem;
+    line-height: 1.86;
+    text-align: center;
+    color: #aab3ba;
+}
