@@ -222,6 +222,7 @@ a:hover {
 .hero__watch-video--icon {
     width: 44px;
     height: 44px;
+    rotate: 45deg;
 }
 
 .hero__watch-video--name {
@@ -774,4 +775,71 @@ a:hover {
     width: 1140px;
     overflow: hidden;
     border-radius: 22px;
+}
+/* features */
+.features {
+    margin-top: 140px;
+}
+
+.features__header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.features__heading {
+    width: 520px;
+    text-align: center;
+}
+
+.features__desc {
+    margin-top: 20px;
+    width: 547px;
+    text-align: center;
+}
+
+.features__list {
+    display: flex;
+    margin-top: 105px;
+    column-gap: 45px;
+}
+
+.features-item {
+    width: 350px;
+    display: flex;
+    height: 362px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    border: 1.5px solid #cecece;
+    border-radius: 160px;
+    transition: 0.25s;
+}
+
+.features-item:hover {
+    border-radius: 160px;
+    /* background: ; */
+    border: #fff;
+    transform: translateY(-60px);
+    box-shadow: 0px 36px 100px 0px rgba(111, 120, 111, 0.2);
+}
+
+.features-item__title {
+    margin-top: 24px;
+    color: #152427;
+
+    /* Paragraph/h1 20px semibold */
+    font-size: 2rem;
+    font-family: Poppins;
+    font-weight: 600;
+}
+
+.features-item__desc {
+    margin-top: 9px;
+    width: 286px;
+    color: var(--text-color-light-gray, #7d8188);
+    font-size: 14px;
+
+    line-height: 24px;
 }
