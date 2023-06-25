@@ -138,11 +138,14 @@
                         <div class="hero__row">
                             <a href="#!" class="btn">Get in touch</a>
                             <button class="hero__watch-video">
-                                <img
-                                    src="./assets/icons/play-icon.svg"
-                                    alt="watch-video"
-                                    class="hero__watch-video--icon"
-                                />
+                                <div class="header-hero__half-circle-border">
+                                    <img
+                                        src="./assets/icons/play-icon.svg"
+                                        alt="watch-video"
+                                        class="hero__watch-video--icon"
+                                    />
+                                </div>
+
                                 <span class="hero__watch-video--name"
                                     >Watch Video</span
                                 >
@@ -150,7 +153,8 @@
                         </div>
                     </section>
 
-                    <div class="hero__media">
+                    <figure class="hero__media">
+                        <div class="header-hero__bgc-blu"></div>
                         <img
                             src="./assets/img/hero-01.png"
                             alt=""
@@ -166,26 +170,17 @@
                             alt=""
                             class="hero__img"
                         />
-                    </div>
+                    </figure>
+
                     <img
-                        src="./assets/img/hero-linear-01.png"
+                        src="./assets/img/decor-icon.svg"
                         alt=""
-                        class="hero__linear-1"
+                        class="hero__decor-icon"
                     />
                     <img
-                        src="./assets/img/extra-avstract.svg"
+                        src="./assets/img/decor-icon.svg"
                         alt=""
-                        class="hero__extra-1"
-                    />
-                    <img
-                        src="./assets/img/hero-linear-02.png"
-                        alt=""
-                        class="hero__linear-2"
-                    />
-                    <img
-                        src="./assets/img/extra-avstract.svg"
-                        alt=""
-                        class="hero__extra-2"
+                        class="hero__decor-icon"
                     />
                 </section>
             </div>
@@ -194,43 +189,90 @@
             <section class="section-logo">
                 <div class="container">
                     <div class="section-logo__inner">
-                        <div class="section-logo__list">
-                            <div class="section-logo__item">
-                                <p class="section-logo__item--title">Google</p>
-                            </div>
-
-                            <div class="section-logo__item">
-                                <img
-                                    src="./assets/icons/stack.svg"
-                                    alt="slack"
-                                    class="section-logo__item--icon"
+                        <img
+                            src="./assets/img/logo-section.svg"
+                            alt=""
+                            class="logo-section"
+                        />
+                    </div>
+                </div>
+            </section>
+            <!-- OUR SERVICES -->
+            <section class="services">
+                <div class="container">
+                    <p class="services__title section-title">OUR SERVICES</p>
+                    <div class="services_row">
+                        <h2 class="services__heading section-heading">
+                            We offer a wide range of design services
+                        </h2>
+                        <div class="services__control">
+                            <button class="services__control--btn">
+                                <svg
+                                width="22"
+                                height="13"
+                                viewBox="0 0 22 13"
+                                fill="none"
+                                xmlns="http://www.w3.org/2000/svg"
+                            >
+                                <path
+                                    d="M21 6.82353H0.999999M0.999999 6.82353L6.29412 1M0.999999 6.82353L6.29412 12"
+                                    stroke="currentColor"
+                                    stroke-width="1.5"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
                                 />
-                                <p class="section-logo__item--title">slack</p>
-                            </div>
-
-                            <div class="section-logo__item">
-                                <img
-                                    src="./assets/icons/Agworld.svg"
-                                    alt=""
-                                    class="section-logo__item--icon"
-                                />
-                                <p class="section-logo__item--title">Agworld</p>
-                            </div>
-
-                            <div class="section-logo__item">
-                                <p class="section-logo__item--title">
-                                    RioTinto
-                                </p>
-                            </div>
-                            <div class="section-logo__item">
-                                <img
-                                    src="./assets/icons/HEROKU.svg"
-                                    alt="HEROKU"
-                                    class="section-logo__item--icon"
-                                />
-                                <p class="section-logo__item--title">HEROKU</p>
-                            </div>
+                            </svg>
+                            <button
+                                class="services__control--btn"
+                            >   <svg
+                            class="services__control-next"
+                            width="22"
+                            height="13"
+                            viewBox="0 0 22 13"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                        >
+                            <path
+                                d="M21 6.82353H0.999999M0.999999 6.82353L6.29412 1M0.999999 6.82353L6.29412 12"
+                                stroke="currentColor"
+                                stroke-width="1.5"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                            />
+                        </svg>
+                        </button>
                         </div>
+                    </div>
+                    <div class="services__list">
+                        <section class="services-item">
+                            <figure class="services-item__thumb"><img src="./assets/img/services-01.png" alt="Branding" class="services-item__img"></figure>
+                         <div class="services-item__info">
+                                <h3 class="services-item__heading">Branding</h3>
+                                <p class="services-item__desc">Create beautiful Agency website with 
+                                    Boluethat converts more visitors than 
+                                    any website.</p>
+                         </div>
+                        </section>
+
+                        <section class="services-item">
+                            <figure class="services-item__thumb"><img src="./assets/img/services-02.png" alt="Branding" class="services-item__img"></figure>
+                            <div class="services-item__info">
+                                <h3 class="services-item__heading">Web Design</h3>
+                                <p class="services-item__desc">Create beautiful Agency website with 
+                                    Boluethat converts more visitors than 
+                                    any website.</p>
+                            </div>
+                        </section>
+
+                        <section class="services-item">
+                            <figure class="services-item__thumb"><img src="./assets/img/services-03.png" alt="Branding" class="services-item__img"></figure>
+                          <div class="services-item__info">
+                                <h3 class="services-item__heading">Graphic Design</h3>
+                                <p class="services-item__desc">Create beautiful Agency website with 
+                                    Boluethat converts more visitors than 
+                                    any website.</p>
+                          </div class="services-item__info">
+                        </section>
                     </div>
                 </div>
             </section>
