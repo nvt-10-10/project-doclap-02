@@ -771,11 +771,13 @@ a:hover {
 
 .project__video {
     margin-top: 72px;
-    height: 544px;
-    width: 1140px;
+    /* height: 544px; */
     overflow: hidden;
     border-radius: 22px;
     object-fit: cover;
+}
+.video {
+    width: 100%;
 }
 /* features */
 .features {
